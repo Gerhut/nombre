@@ -1,5 +1,4 @@
 /* eslint-env mocha */
-require('should')
 var nombre = require('.')
 
 it('should convert integer in any radix into decimal integer', function () {
