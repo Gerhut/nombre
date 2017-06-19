@@ -12,6 +12,11 @@ module.exports = function (config) {
       type: 'lcovonly',
       subdir: '.',
       file: 'karma-lcov.txt'
+    },
+    client: {
+      mocha: {
+        reporter: 'html'
+      }
     }
   })
 }
