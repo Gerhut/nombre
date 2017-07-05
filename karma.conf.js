@@ -5,7 +5,7 @@ module.exports = function (config) {
     preprocessors: {
       '*.js': ['coverage', 'commonjs']
     },
-    browsers: ['PhantomJS'],
+    browsers: [process.env.CI ? 'ChromeHeadless' : 'Chrome'],
     reporters: ['progress', 'coverage'],
     singleRun: true,
     coverageReporter: {
