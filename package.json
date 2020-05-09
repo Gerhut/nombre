@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Gerhut/nombre#readme",
   "devDependencies": {
-    "karma": "^1.7.0",
+    "karma": "^5.0.5",
     "karma-chrome-launcher": "^2.2.0",
     "karma-commonjs": "^1.0.0",
     "karma-coverage": "^1.1.1",
