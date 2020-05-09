@@ -29,7 +29,7 @@
     "karma-coverage": "^2.0.2",
     "karma-mocha": "^2.0.1",
     "karma-should": "^1.0.0",
-    "mocha": "^3.4.2",
+    "mocha": "^7.1.2",
     "nyc": "^15.0.1",
     "should": "^13.2.3",
     "standard": "^10.0.2"
